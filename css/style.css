@@ -1,0 +1,54 @@
+.navbar-brand{
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.section1 img {
+    height: 700px;
+    width: 750px;
+    margin: 50px;
+    border: solid 3px #ff8952;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    left: 450px;
+    /*transform: translate(0px 0px 50px)*/
+}
+.living img, .oficina img{
+    height: 400px;
+    width: 450px;
+    margin: 50px;
+    border: solid 3px #ff8952;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    left: 350px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #ff8952;
+}
+
+.footer p {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer li {
+    list-style: none;
+}
+
+.footer section {
+    display: flex;
+}
+
+.redes {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    position: relative;
+    left: 900px;
+    margin: 5px;
+}
